@@ -1,0 +1,46 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="./calc.css" />
+</head>
+
+<body>
+    <div class="box">
+        <div class="display">
+            <input type="text" readonly size="15" id="display"></div>
+        <div class="keys">
+            <p>
+                <input type="button" class="button gray" value="mrc" >
+                <input type="button" class="button gray" value="m-" >
+                <input type="button" class="button gray" value="m+" >
+                <input type="button" class="button pink" value="/" onclick='calc.setOperator("/")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="7" onclick='calc.typeNumber("7")'>
+                <input type="button" class="button black" value="8" onclick='calc.typeNumber("8")'>
+                <input type="button" class="button black" value="9" onclick='calc.typeNumber("9")'>
+                <input type="button" class="button pink" value="*" onclick='calc.setOperator("*")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="4" onclick='calc.typeNumber("4")'>
+                <input type="button" class="button black" value="5" onclick='calc.typeNumber("5")'>
+                <input type="button" class="button black" value="6" onclick='calc.typeNumber("6")'>
+                <input type="button" class="button pink" value="-" onclick='calc.setOperator("-")'>
+            </p>
+            <p>
+                <input type="button" class="button black" value="1" onclick='calc.typeNumber("1")'>
+                <input type="button" class="button black" value="2" onclick='calc.typeNumber("2")'>
+                <input type="button" class="button black" value="3" onclick='calc.typeNumber("3")'>
+                <input type="button" class="button pink" value="+" onclick='calc.setOperator("+")'>
+            </p>
+            <p><input type="button" class="button black" value="0" onclick='calc.typeNumber("0")'>
+                <input type="button" class="button black" value="." onclick='calc.typeNumber(".")'>
+                <input type="button" class="button black" value="C" onclick='calc.clear()'>
+                <input type="button" class="button orange" value="=" onclick='calc.equals()'>
+            </p>
+        </div>
+    </div>
+    <script src="/main.bundle.js"></script>
+</body>
+
+</html>
