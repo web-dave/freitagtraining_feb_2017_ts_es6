@@ -1,6 +1,8 @@
 
 while (true) {
-    const sayAfterOneSec = (action: any) => new Promise((resolve: any, reject: any) => setTimeout(() => resolve(action), 1000));
+    const sayAfterOneSec = (action: any) => 
+        new Promise((resolve: any, reject: any) => 
+            setTimeout(() => resolve(action), 1000));
 
     const cmd = '^5';
 
