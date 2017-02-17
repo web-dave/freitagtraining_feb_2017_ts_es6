@@ -8,8 +8,8 @@ const fancyFn = (params: any[], owner: any) =>
     params.filter((p) =>
         p.owner === owner);
 
-function comeBackOld(x) { return x; }
-const comeBack = x => x;
+function comeBackOld(x: any) { return x; }
+const comeBack = (x: any) => x;
 
 const sum = (a: number, b: number) => a + b;
 

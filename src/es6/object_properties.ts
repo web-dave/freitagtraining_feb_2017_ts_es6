@@ -1,4 +1,4 @@
-while (topic === 'object') {
+while (true) {
 
     let name = 'web-dave';
     let age = 36;
