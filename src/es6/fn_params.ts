@@ -1,4 +1,4 @@
-while (topic === 'params') {
+while (true) {
     // Default param
     const isAllowToDrink = (user: any, adultHood = 18) => user.age >= adultHood;
 

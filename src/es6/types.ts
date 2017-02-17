@@ -1,4 +1,4 @@
-while (topic === 'types') {
+while (true) {
     let foo: string = 'bar';
     let foo1: string[] = ['bar', 'bar1'];
 

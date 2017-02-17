@@ -9,7 +9,8 @@
     "build.prod": "webpack --config webpack.config.js -p",
     "test": "karma start karma.config.js",
     "e2e": "protractor protractor-conf.js",
-    "pree2e": "webdriver-manager update"
+    "pree2e": "webdriver-manager update",
+    "rest": "json-server --watch ./src/todo/todo.json"
   },
   "keywords": [
     "webpack",
@@ -24,6 +25,7 @@
     "awesome-typescript-loader": "3.0.0-beta.18",
     "jasmine-core": "2.5.2",
     "jasmine-spec-reporter": "^2.7.0",
+    "json-server": "^0.9.5",
     "karma": "1.4.0",
     "karma-jasmine": "1.1.0",
     "karma-phantomjs-launcher": "1.0.2",
